@@ -14,6 +14,9 @@
 		048743372AFDB3F100F04A63 /* W9_MobComTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048743362AFDB3F100F04A63 /* W9_MobComTests.swift */; };
 		048743412AFDB3F100F04A63 /* W9_MobComUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048743402AFDB3F100F04A63 /* W9_MobComUITests.swift */; };
 		048743432AFDB3F100F04A63 /* W9_MobComUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048743422AFDB3F100F04A63 /* W9_MobComUITestsLaunchTests.swift */; };
+		048743552AFDBEB300F04A63 /* MTGCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048743542AFDBEB300F04A63 /* MTGCard.swift */; };
+		048743572AFDBF0600F04A63 /* WOT-Scryfall.json in Resources */ = {isa = PBXBuildFile; fileRef = 048743562AFDBF0600F04A63 /* WOT-Scryfall.json */; };
+		048743592B05C18500F04A63 /* cobacoba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048743582B05C18500F04A63 /* cobacoba.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		0487433C2AFDB3F100F04A63 /* W9-MobComUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "W9-MobComUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048743402AFDB3F100F04A63 /* W9_MobComUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W9_MobComUITests.swift; sourceTree = "<group>"; };
 		048743422AFDB3F100F04A63 /* W9_MobComUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W9_MobComUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		048743542AFDBEB300F04A63 /* MTGCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGCard.swift; sourceTree = "<group>"; };
+		048743562AFDBF0600F04A63 /* WOT-Scryfall.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "WOT-Scryfall.json"; path = "../../../../../Downloads/WOT-Scryfall.json"; sourceTree = "<group>"; };
+		048743582B05C18500F04A63 /* cobacoba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobacoba.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 			children = (
 				048743252AFDB3EF00F04A63 /* W9_MobComApp.swift */,
 				048743272AFDB3EF00F04A63 /* ContentView.swift */,
+				048743582B05C18500F04A63 /* cobacoba.swift */,
 				048743292AFDB3F000F04A63 /* Assets.xcassets */,
 				0487432B2AFDB3F000F04A63 /* Preview Content */,
 			);
@@ -106,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				0487432C2AFDB3F000F04A63 /* Preview Assets.xcassets */,
+				048743562AFDBF0600F04A63 /* WOT-Scryfall.json */,
+				048743542AFDBEB300F04A63 /* MTGCard.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048743572AFDBF0600F04A63 /* WOT-Scryfall.json in Resources */,
 				0487432D2AFDB3F000F04A63 /* Preview Assets.xcassets in Resources */,
 				0487432A2AFDB3F000F04A63 /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				048743282AFDB3EF00F04A63 /* ContentView.swift in Sources */,
+				048743552AFDBEB300F04A63 /* MTGCard.swift in Sources */,
 				048743262AFDB3EF00F04A63 /* W9_MobComApp.swift in Sources */,
+				048743592B05C18500F04A63 /* cobacoba.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
